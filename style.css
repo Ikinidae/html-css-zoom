@@ -43,6 +43,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    height: calc(100vh - 140px);
+    overflow: auto;
 }
 
 .profile {
@@ -50,6 +52,7 @@ main {
     height: auto;
     margin-right: 5px;
     position: relative;
+    margin-bottom: 10px;
 }
 
 .name {
@@ -109,9 +112,11 @@ main {
 
 .end_meeting {
     background-color: gray;
+    width: 100px;
 }
 
 .end_meeting a {
     text-decoration: none;
     color: red;
+    font-size: 13px;
 }
