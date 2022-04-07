@@ -34,13 +34,12 @@ header a {
 main {
     background-color: black;
     width: 100%;
-    height: calc(100vh - 120px);
+    height: calc(100vh - 130px);
     padding-left: 50px;
     padding-right: 50px;
-
 }
 
-.container {
+.container_main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -58,7 +57,7 @@ main {
     position: absolute;
     bottom: 4px;
     left: 0;
-    background-color: gray;
+    background-color: rgb(128,128,128,0.7);
 }
 
 .profile img {
@@ -66,3 +65,53 @@ main {
 }
 
 /* footer */
+.container_footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: 	#303030;
+    height: 70px;
+    padding: 12px;
+}
+
+.button {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.button i {
+    font-size: 25px;
+}
+
+.button_text {
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#angle_up {
+    font-size: 15px;
+    color: white;
+}
+
+.margin_right {
+    margin-right: 15px;
+}
+
+#green_button {
+    color: green;
+}
+
+.end_meeting {
+    background-color: gray;
+}
+
+.end_meeting a {
+    text-decoration: none;
+    color: red;
+}
