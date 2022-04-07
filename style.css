@@ -23,6 +23,7 @@ header a {
     border-radius: 5px;
     float: right;
     font-size: 12px;
+    margin-top: 5px;
 }
 
 .margin_left {
@@ -49,8 +50,19 @@ main {
     width: 200px;
     height: auto;
     margin-right: 5px;
+    position: relative;
+}
+
+.name {
+    color: white;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    background-color: gray;
 }
 
 .profile img {
     width: 100%;
 }
+
+/* footer */
